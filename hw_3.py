@@ -28,11 +28,11 @@ def main():
     #
     # plt.show()
 
-    x = np.arange(0, 4, 0.001)
-    plt.plot(4*np.exp(-4*x)) #,2*np.exp(-2*x), , 0.5*np.exp(-0.5*x) )
-    plt.plot(1*np.exp(-1*x))
-    plt.plot(0.5*np.exp(-0.5*x))
-    plt.plot(2*np.exp(-2*x))
+    x = np.arange(0, 4, 0.01)
+    # plt.plot(4*np.exp(-4*x)) #,2*np.exp(-2*x), , 0.5*np.exp(-0.5*x) )
+    # plt.plot(1*np.exp(-1*x))
+    plt.plot(5*((x**2)**4)*(2*x))
+    plt.plot(2*x)
 
 
     plt.show()

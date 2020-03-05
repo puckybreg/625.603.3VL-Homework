@@ -45,12 +45,22 @@ def problem3_10_8():
     # plt.title("Uniform Distribution Histogram (Bin size 20)")
     # plt.axis([0, 1, 0, 1])  # x_start, x_end, y_start, y_end
     # plt.grid(True)
-    #
-    # plt.show()
+    x = np.arange(-4, 4, 0.001)
+    # plt.plot(4*np.exp(-4*x)) #,2*np.exp(-2*x), , 0.5*np.exp(-0.5*x) )
+    # plt.plot(1*np.exp(-1*x))
+    plt.plot(10*(x**9))
+    plt.plot((10*x)*(1-(x**2))**4)
+    plt.plot(2*x)
+
+
+    plt.show()
+
+
+    plt.show()
 
 
 def main():
-    problem3_10_6()
+    problem3_10_8()
 
 
 
